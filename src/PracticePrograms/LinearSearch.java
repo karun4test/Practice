@@ -4,7 +4,7 @@ public class LinearSearch {
 	
 	public static void main ( String[] args) {
 		int[] nums= {2,3,4,5,6,7,8,9,11,12,13,15};
-		int target = 153; 
+		int target = 15; 
 		int length = nums.length -1; 
 		int index = linearSearch(nums, target, length);
 		

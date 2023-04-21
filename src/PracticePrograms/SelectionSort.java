@@ -3,7 +3,7 @@ package PracticePrograms;
 public class SelectionSort {
 	public static void main(String[] args) {
 
-		//int[] arr = { 32, 21, 23, 34, 45, 56, 67, 78, 89, 97, 24 }; 11,22,55,33,44,66,111,77,222,88,99,1}
+		//int[] arr = { 32, 21, 23, 34, 45, 56, 67, 78, 89, 97, 24 }; {11,22,55,33,44,66,111,77,222,88,99,1}
 
 		int[] arr = { 11,22,55,33,44,66,111,77,222,88,99,1}; 
 		selectionSort(arr);
@@ -14,7 +14,7 @@ public class SelectionSort {
 
 	}
 
-	private static void selectionSort(int[] arr) {
+	public static void selectionSort(int[] arr) {
 
 		for (int i = 0; i < arr.length - 1; i++) {
 

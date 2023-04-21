@@ -5,7 +5,7 @@ public class BinarySearchOne {
 		int[] nums = {2,3,4,5,6,7,8,9};
 		int first =0;
 		int last = nums.length-1;
-		int target = 4;
+		int target = 2;
 		int index = binarySearch(nums,first , last , target) ;
 		
 		if( index !=-1) {
