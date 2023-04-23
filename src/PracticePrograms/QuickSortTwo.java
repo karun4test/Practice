@@ -1,5 +1,7 @@
 package PracticePrograms;
 
+import PracticePrograms.Utility.SwapingNumbers;
+
 public class QuickSortTwo {
 
 	public static void main(String[] args) {
@@ -40,20 +42,20 @@ public class QuickSortTwo {
 		for (int j = low; j <= high - 1; j++) {
 			if (array[j] < pivot) {
 				i++;
-				swap(array, i, j);
+				SwapingNumbers.swap(array, i, j);
 			}
 		}
-		swap(array, i + 1, high);
+		SwapingNumbers.swap(array, i + 1, high);
 		return (i + 1);
 
 	}
 
-	private static void swap(int[] array, int i, int j) {
-		// TODO Auto-generated method stub
-
-		int temp = array[i];
-		array[i] = array[j];
-		array[j] = temp;
-	}
+//	private static void swap(int[] array, int i, int j) {
+//		// TODO Auto-generated method stub
+//
+//		int temp = array[i];
+//		array[i] = array[j];
+//		array[j] = temp;
+//	}
 
 }
