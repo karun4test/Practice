@@ -6,9 +6,10 @@ public class PrintArray {
 		// TODO Auto-generated method stub
 
 
-		//System.out.println(" Print array after sorting :");
+		System.out.println(" Print array :");
 		for (int i = 0; i <= array.length - 1; i++)
 			System.out.print(array[i] + " ");
+		System.out.println("\n----------------------------");
 		
 	}
 	
